@@ -1,0 +1,34 @@
+body {
+  background: #18142a;
+  color: #f8f8f8;
+  font-family: monospace;
+  text-align: center;
+}
+
+h1 {
+  letter-spacing: 2px;
+  margin-bottom: 5px;
+}
+
+#game-container {
+  display: inline-block;
+  background: #1d1733;
+  border: 4px solid #7cf;
+  margin: 20px auto;
+  border-radius: 8px;
+  box-shadow: 0 0 18px #000a;
+}
+
+#game {
+  image-rendering: pixelated;
+  display: block;
+  margin: 0 auto;
+  background: #23203b;
+}
+
+#status {
+  margin-top: 8px;
+  min-height: 20px;
+  color: #fffd8e;
+  font-size: 1em;
+}
